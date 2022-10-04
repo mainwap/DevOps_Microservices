@@ -3,3 +3,14 @@ ziggy04                       0/1     ImagePullBackOff   0          22m
 ziggy04-app-7c6bb5c55-rkxm8   1/1     Running            0          12m
 Forwarding from 0.0.0.0:8000 -> 80
 Handling connection for 8000
+
+
+
+voclabs:~/environment/DevOps_Microservices/project-ml-microservice-kubernetes (master) $ ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+voclabs:~/environment/DevOps_Microservices/project-ml-microservice-kubernetes (master) $ 
