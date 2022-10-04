@@ -1,1 +1,5 @@
-<paste log output from Kubernetes-mediated prediction, here>
+NAME                          READY   STATUS             RESTARTS   AGE
+ziggy04                       0/1     ImagePullBackOff   0          22m
+ziggy04-app-7c6bb5c55-rkxm8   1/1     Running            0          12m
+Forwarding from 0.0.0.0:8000 -> 80
+Handling connection for 8000
